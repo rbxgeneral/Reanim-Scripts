@@ -1,3 +1,4 @@
+-- semi nsfw but funny to troll people in vc games
 do
 	local Accessories = {}
 
