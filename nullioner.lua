@@ -1,4 +1,8 @@
-
+-- Sick ass gun script I decided to fix and convert once again
+-- HATS:
+-- https://www.roblox.com/catalog/4504231783/Elemental-Crystal-Golem-Shoulder-Rock
+-- https://www.roblox.com/catalog/15008447503/Slug-Rifle-Blue
+-- CHANGE THE RIGS TO YOUR OWN RIGS IN LINE 1012 TO 1016 (Autorig is recommended btw)
 
 do
 	local Accessories = {}
@@ -1544,11 +1548,10 @@ loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/
 loadstring(game:HttpGet("https://raw.githubusercontent.com/maddudelol/stupidassscriptswhatthefuckamidoing/refs/heads/main/networkshit"))() -- Good library btw
 local asdf = workspace.DuskySpoon
 local Bullett = asdf.RockAccessory.Handle
-local BruhEffect = asdf.MeshPart.Handle
+
 Bullett.AccessoryWeld:Destroy()
 Bullett.CanCollide = false
-BruhEffect.AccessoryWeld:Destroy()
-BruhEffect.CanCollide = false
+
 
 local Torso = asdf:FindFirstChild("Torso")
 local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
